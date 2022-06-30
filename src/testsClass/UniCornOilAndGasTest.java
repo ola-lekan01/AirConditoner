@@ -1,5 +1,7 @@
 package testsClass;
 
+//Test Class, methods and attributes to assert UniCorn Oil And Gas Filling Station
+
 public class UniCornOilAndGasTest {
 
     private String location;
@@ -25,4 +27,3 @@ public class UniCornOilAndGasTest {
         return this.price;
     }
 }
-

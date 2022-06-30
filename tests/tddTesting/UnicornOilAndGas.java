@@ -27,6 +27,7 @@ public class UnicornOilAndGas {
         unicornOilAndGas.getDiscount(2);
         assertEquals(392 , unicornOilAndGas.getPrice());
 
+
     }
 
 }
