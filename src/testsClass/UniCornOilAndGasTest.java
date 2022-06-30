@@ -18,6 +18,7 @@ public class UniCornOilAndGasTest {
 
     public void getDiscount(int litre) {
         this.price = (fuelPerLitre * litre) - (fuelPerLitre * litre * 0.02);
+        //0.02 is the percentage discount 2/100 = 0.02
     }
 
     public double getPrice() {
