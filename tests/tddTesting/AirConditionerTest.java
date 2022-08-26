@@ -12,14 +12,13 @@ public class AirConditionerTest {
     }
     @Test
     @DisplayName("To Turn on My AC When I turn it On")
-    public void myAcIsOnTurnONAC(){
+    public void myAcIsOnTurnONAC() {
         assertFalse(hisense.isOn());
         //when
         hisense.turnOn();
         //Check
         assertTrue(hisense.isOn());
     }
-
     @Test
     @DisplayName("To Turn off My AC When I turn it Off")
 

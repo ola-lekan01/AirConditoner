@@ -1,5 +1,4 @@
 package testsClass;
-
 public class AirConditioner {
     private boolean isOn;
     private int temperature = 16;
